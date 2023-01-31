@@ -1,2 +1,2 @@
 # gsknockoff
-# This provide an example running code and the codes for gsknockoff package
+# This folder provide an example running code 'gsknockoff_example.R' and the folders with codes needed for gsknockoff package installation.
