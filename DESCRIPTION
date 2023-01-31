@@ -1,0 +1,27 @@
+Package: gsknockoff
+Title: General Simultaneous Knockoff
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Ran",
+           family = "Dai",
+           role = c("aut", "cre"),
+           email = "ran.dai@unmc.edu"),
+    person(given = "Cheng",
+           family = "Zheng",
+           role = c("aut", "cre"),
+           email = "cheng.zheng@unmc.edu"))
+Description: This package implements the knockoff methods for testing union null hypothesis,
+based on "FDR Controlled Multiple Testing for Union Null Hypotheses: A Knockoff-based Approach" 
+by Ran Dai and Cheng Zheng on arXiv: 2106.12719.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    glmnet,
+    knockoff,
+    MASS
+Suggests: 
+    repfdr
